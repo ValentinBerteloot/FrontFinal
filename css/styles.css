@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Cambios generales */
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilos del Header */
+
+header{
+    width: 100vw;
+    height: 10.875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos del logo principal */
+
+.logo{
+    height: 1.4375rem;
+    margin-left: 4.6875rem;
+}
+.disc{
+    display: none;
+}
+
+/* Nav principal */
+
+.main-nav a{
+    text-decoration: none;
+    color: #242E52;
+    font-size: 0.8rem;
+    padding: 1.125rem;
+}
+/*-  Main nav Hover   -*/
+.main-nav a:hover{
+    color: #B9B9C1;
+    opacity: 75%;
+}
+
+/* Estilo del boton */
+
+header button{
+    background-color: #8B48BF;
+    width: 8.375rem;
+    height: 2.75rem;
+    padding: 0.625rem;
+    border-radius: 3.125rem;
+    border: 0;
+    margin-right: 4.6875rem;
+    box-shadow: 0rem 0.25rem 0.4375rem rgba(0, 0, 0, 0.25);
+}
+.link-button{    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+header button:hover{
+    opacity: 70%;
+}
+
+/* Estilos del primer bloque de informacion */
+
+.primer-bloque{
+    width: 100%;
+    height: 32.8125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Titulo e Informacion */
+
+.titulo{
+    color: #232C50;
+    font-size: 3.625rem;
+    font-weight: 700;
+    margin-top: 3.2rem;
+}
+.info-principal{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4.6875rem;
+}
+.info-principal p{
+    color: #000000;
+    height: 4.4375rem;
+    width: 26.25rem;
+    font-size: 1rem;
+    margin-top: 1.875rem;
+}
+.info-principal button{
+    background-color: #8B48BF;
+    width: 8.375rem;
+    height: 2.75rem;
+    padding: 0.625rem;
+    border-radius: 3.125rem;
+    border: 0;
+    margin-top: 1.875rem;
+    box-shadow: 0rem 0.25rem 0.4375rem rgba(0, 0, 0, 0.25);
+}
+.info-principal button:hover{
+    opacity: 70%;
+}
+
+/* Estilos de la imagen Stats*/
+
+.stats-mobile{
+    display: none;
+}
+
+.stats{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4.6875rem;
+}
+.stats img{
+    height: 100%;
+    width: 36.25rem;
+}
+
+/* Estilos del segundo bloque */
+
+.segundo-bloque{
+    width: 100%;
+    height: 40.375rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos del about */
+
+.about{
+    height: 100%;
+    width: 50%;
+    margin-left: 4.6875rem;
+    margin-top: 6.5rem;
+}
+.about h2{
+    color:#232851;
+    font-size: 2.25rem;
+    width: 28.125rem; 
+    height: 5.5rem;
+}
+.about p{
+    font-size: 1rem;
+    color: #000000;
+    width: 21.0625rem;
+    font-weight: 500;
+    height: 5.5rem;
+    margin-top: 3.125rem;
+}
+
+/* Estilos de la lista numerada con botones */
+
+.botones{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4.6875rem;
+}
+.botones div{
+    margin-top: 3rem;
+}
+.botones button{
+    background-color: #8B48BF;
+    color: white;
+    width: 4.3125rem;
+    height: 2.6875rem;
+    padding: 0.625rem;
+    border-radius: 1.875rem;
+    border: 0;
+    margin:0.625rem 1.5625rem;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0rem 0.25rem 0.4375rem rgba(0, 0, 0, 0.25);
+}
+.botones h3{        
+    height: 1.4375rem;
+    color: #232851;
+    display: inline-block;
+}
+.botones p{
+    font-size: 1rem;
+    color: #B3B2B7;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 27.9375rem;
+    height: 6.5rem;
+    margin-left: 7.6875rem;
+}
+
+/* Estilos del Titulo h2, cards con opiniones y boton centralizado */
+
+.op{
+    width: 100%;
+    height: 29.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+.op h2{
+    color: #242E53;
+    font-weight: 700;
+    width: 20.9006rem;
+    height: 3.8125rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.op button{
+        background-color: #8B48BF;
+        width: 8.375rem;
+        height: 2.75rem;
+        padding: 0.625rem;
+        border-radius: 3.125rem;
+        border: 0;
+        margin-top: 1.875rem;
+        box-shadow: 0rem 0.25rem 0.4375rem rgba(0, 0, 0, 0.25);
+}
+.op button:hover{
+    opacity: 70%;
+}
+
+/*Estilo de las cards*/
+
+.card-mobile{
+    display: none;
+}
+.card{
+    height: 12.5rem;
+    width: 23.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    width: 4.375rem;
+    height: 4.375rem;
+}
+.card h3{
+    color:#3F4868;
+    font-size: 1rem;
+    margin-top: 1.875rem;
+}
+.card p{
+    width: 25rem;
+    height: 4.875rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #B9B9C1;
+    margin-top: 1.375rem;
+    display: flex;
+    align-items: center;
+}
+.flex-cards{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos del Aside */
+
+aside{
+    background-color: #8B48BF;
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11.25rem;
+}
+aside h3{
+    color: white;
+    font-weight: 700;
+    width: 30rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 5.9375rem;
+}
+
+/* Estilo del boton dentro del aside */
+
+.boton-blanco{
+    background-color: white;
+    width: 8.375rem;
+    height: 2.75rem;
+    padding: 0.625rem;
+    border-radius: 3.125rem;
+    border: 0;
+    margin-right: 5.9375rem;
+    box-shadow: 0rem 0.25rem 0.4375rem rgba(0, 0, 0, 0.25);
+}
+.link-violeta{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #8B48BF;
+}
+.boton-blanco:hover{
+    opacity: 70%;
+}
+/* Estilos del footer */
+footer{
+    width: 100%;
+    height: 15.4375rem;
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo principal y redes*/
+
+.left{
+    height: 100%;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4.6875rem;
+}
+.logo-blanco{
+    margin-top: 4.6875rem;
+}
+.logo-mobile{
+    display: none;
+}
+.redes{
+    color: white;
+    font-size: 1.25rem;
+    width: 9.0625rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos del nav y el setcion central */
+
+.middle{
+    height:8.8212rem;
+    width: 24.5456rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-footer{
+    height:8.8212rem;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.625rem;
+}
+.nav-footer2{
+    height:8.8212rem;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7.5rem;
+}
+.nav-footer2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.625rem;
+}
+.nav-footer a:hover{
+    opacity: 70%;
+    color: #B9B9C1;
+    font-size: 0.97rem;
+}
+.nav-footer2 a:hover{
+    opacity: 70%;
+    color: #B9B9C1;
+    font-size: 0.97rem;
+}
+
+/*Botones parte izquierda del footer*/
+
+.right{
+    height:12.5rem;
+    width: 24.5456rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.go{
+    margin-top: 3.125rem;
+}
+.boton1{
+    width: 12.5625rem;
+    height: 2.75rem;
+    color: #A0A0A0;
+    background-color: white;
+    border-radius: 3.125rem;
+    border: 0;
+    margin-right: 0.625rem;
+}
+.boton2{
+    width: 3.9375rem;
+    height: 2.625rem;
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 3.125rem;
+    border: 0;
+    margin-right: 4.6875rem;
+}
+.copyright p{
+    width: 13.3656rem;
+    height: 1.2406rem;
+    color: #8C8C94;
+    font-size: 0.75rem;
+    margin-right: 4.6875rem;
+}
+.boton2:hover{
+    opacity: 70%;
+}
+@media (max-width: 480px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    /* Estilos del Header */
+
+    header{
+    width: 100vw;
+    height: 3.75rem;
+    margin-top: 15px;    
+}
+
+/* Estilos del logo principal */
+
+.logo{
+    height: 1.4375rem;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+    .main-nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .disc{
+        display: block;
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+
+    /* Estilos del main Mobile*/
+
+    /* Estilos del primer bloque de informacion */
+
+    .primer-bloque{
+    width: 100%;
+    height: 32.8125rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .stats{
+        display: none;
+    }
+    .stats-mobile{
+        display: flex;
+        height: 16.4619rem;
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+
+    /* Titulo e informacion */
+
+    .info-principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .titulo{
+        color: #232C50;
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 4rem;
+        width: 439px;
+        height: 198px;
+        text-align: center;
+    }
+    .info-principal p{
+        color: #000000;
+        width: 350px;
+        height: 71px;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1.875rem;
+        text-align: center;
+    }
+    
+    /*Estilos segundo bloque mobile*/
+    
+    .segundo-bloque{
+        width: 100%;
+        display: flex;
+        flex-direction: column;    
+    }
+    .about{
+        height: 100%;
+        width: 50%;
+        margin-left: 45px;
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about h2{
+        color:#232851;
+        font-weight: 700;
+        font-size: 36px;
+        width: 28.125rem; 
+        height: 5.5rem;
+        text-align: center;
+    }
+    .about p{
+        font-size: 1rem;
+        color: #000000;
+        width: 433px;
+        height: 88px;
+        font-weight: 500;
+        margin-top: 3.125rem;
+        text-align: center;
+    }
+    /* Estilos de la lista numerada con botones */
+
+    .botones{
+        width: 100%;
+        height: 188px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b01{
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .b01 button{
+        width: 69px;
+        height: 43px;
+    }
+    .b02{
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .b02 button{
+        width: 69px;
+        height: 43px;
+    }
+    .b03{
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .b03 button{
+        width: 69px;
+        height: 43px;
+    }
+    .botones h3{        
+        height: 1.4375rem;
+        color: #232851;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 14px;
+        align-items: center;
+    }
+    .botones p{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B3B2B7;
+        text-align: left;
+        width: 350px;
+        height: 104px;
+        margin-top: 30px;     
+    }
+/* Estilos del Titulo h2, card con opiniones y boton centralizado */
+
+    .op{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 800px;
+        margin-left: 25px;
+    }
+    .op h2{
+        color: #242E53;
+        font-weight: 700;
+        width: 20.9006rem;
+        height: 3.8125rem;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .op button{
+            background-color: #8B48BF;
+            width: 8.375rem;
+            height: 2.75rem;
+            padding: 0.625rem;
+            border-radius: 3.125rem;
+            border: 0;
+    }
+   
+   /*Estilo de las Cards*/
+
+    .card{
+        display: none;
+    }
+    .card-mobile{
+        height: 12.5rem;
+        width: 23.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .card-mobile img{
+        width: 4.375rem;
+        height: 4.375rem;
+    }
+    .card-mobile h3{
+        color:#3F4868;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .card-mobile p{
+        width: 25rem;
+        height: 4.875rem;
+        font-size: 1rem;
+        text-align: center;
+        color: #B9B9C1;
+        margin-top: 1.375rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Estilos Aside Mobile */
+
+    aside{
+        background-color: #8B48BF;
+        width: 100%;
+        height: 318px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8.25rem;
+    }
+    aside h3{
+        color: white;
+        font-weight: 700;
+        width: 324px;
+        height: 144px;
+        font-size: 2.5rem;
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* Estilo del boton dentro del aside */
+
+    .boton-blanco{
+        background-color: white;
+        width: 8.375rem;
+        height: 2.75rem;
+        padding: 0.625rem;
+        border-radius: 3.125rem;
+        border: 0;
+        margin-left: 117px;
+        margin-bottom: 30px;
+    }
+    .link-violeta{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        color: #8B48BF;
+    }
+    
+    /* Estilos del footer */
+    footer{
+        width: 100%;
+        height: 535.89px;
+        background-color: #1E1E26;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Logo principal y redes*/
+
+    footer .left{
+        order: 3;
+    }
+    footer .middle{
+        order: 2;
+    }
+    footer .right{
+        order: 1;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        margin-right: 75px;
+    }
+    .logo-blanco{
+        display: none;
+    }
+    .logo-mobile{
+        display: flex;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+    .redes{
+        color: white;
+        font-size: 1.25rem;
+        width: 380px;
+        height: 22.05px;
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Estilos del nav y el setcion central */
+
+    .middle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .nav-footer{
+        width: 324px;
+        height: 141.14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-footer a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.625rem;
+    }
+    .nav-footer2{
+        width: 324px;
+        height: 141.14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 7.5rem;
+    }
+    .nav-footer2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.625rem;
+    }
+    .nav-footer a:hover{
+        opacity: 70%;
+        color: #B9B9C1;
+        font-size: 0.97rem;
+    }
+    .nav-footer2 a:hover{
+        opacity: 70%;
+        color: #B9B9C1;
+        font-size: 0.97rem;
+    }
+
+    /*Botones parte izquierda del footer*/
+
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .go form{
+        display: flex;
+        justify-content: center;
+        margin-left: 85px;
+    }
+    .boton1{
+        width: 308px;
+        height: 44px;
+        color: #A0A0A0;
+        background-color: white;
+        border-radius: 3.125rem;
+        border: 0;
+        margin-right: 0.625rem;
+    }
+    .boton2{
+        width: 3.9375rem;
+        height: 2.625rem;
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 3.125rem;
+        border: 0;
+        margin-right: 4.6875rem;
+    }
+    .copyright p{
+        width: 13.3656rem;
+        height: 1.2406rem;
+        color: #8C8C94;
+        font-size: 0.75rem;
+        margin-right: 4.6875rem;
+        position: absolute;
+        top: 3480px;
+        right: 50px;
+    }
+}
